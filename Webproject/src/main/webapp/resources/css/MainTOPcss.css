@@ -3,11 +3,9 @@
 <style>
 
 	 #maincate {
-		  height: 50px; /* 메인 메뉴의 높이 */ 
-		  width: 1000px; /* 메인 메뉴의 넓이 */
-		  display: inline;
-		  float: center;
-		  position: absolute;
+		  height: 36px; /* 메인 메뉴의 높이 */ 
+		  width: 600px; /* 메인 메뉴의 넓이 */
+		  
 	  } 
 	  #maincate ul { /* 메인 메뉴 안의 ul을 설정함: 상위메뉴의 ul+하위 메뉴의 ul */ 
 		  list-style-type: none; /* 메인 메뉴 안의 ul 내부의 목록 표시를 없애줌 */ 
@@ -15,8 +13,8 @@
 		  padding: 0px; /* 메인 메뉴 안의 ul의 padding을 없앰 */ 
 	  } 
 	  #maincate ul li { /* 메인 메뉴 안에 ul 태그 안에 있는 li 태그의 스타일 적용(상위/하위메뉴 모두) */ 
-		  color: #000000; /* 글씨 색*/ 
-		  background-color: #80ffff; /* 배경 색 */ 
+		  color: #c0c0c0; /* 글씨 색*/ 
+		  background-color: #ffffff; /* 배경 색 */ 
 		  float: left; /* 왼쪽으로 나열되도록 설정 */ 
 		  line-height: 50px; /* 텍스트 한 줄의 높이를 30px로 설정 */ 
 		  vertical-align: middle; /* 세로 정렬을 가운데로 설정 */ 
@@ -26,14 +24,15 @@
 	  .menulink, .sublink { /* 상위 메뉴와 하위 메뉴의 a 태그에 공통으로 설정할 스타일 */ 
 		  text-decoration: none; /* a 태그의 꾸밈 효과 제거 */ 
 		  display: block; /* a 태그의 클릭 범위를 넓힘 */
-		  width: 200px; /* 기본 넓이 */ 
-		  font-size: 18px; /* 폰트 사이즈*/ 
-		  font-weight: bold; /* 폰트를 굵게 설정 */ 
-		  font-family: "Trebuchet MS", Dotum; /* 기본 폰트를 영어/한글 순서대로 설정 */ 
-		  text-decoration:none;
+		  width: 100px; /* 기본 넓이 */ 
+		  
 	  } 
 	  .menulink { /* 상위 메뉴의 글씨색*/
 	 	  color: #000000;
+	 	  font-size: 14px; /* 폰트 사이즈*/ 
+		  font-weight: bold; /* 폰트를 굵게 설정 */ 
+		  font-family: "Trebuchet MS", Dotum; /* 기본 폰트를 영어/한글 순서대로 설정 */ 
+		  text-decoration:none;
 	   } 
 	   .maincate:hover .menulink { /* 상위 메뉴의 li에 마우스오버 되었을 때 스타일 설정 */ 
 	   	  color: #808080; /* 글씨 색 */ 
@@ -41,12 +40,12 @@
 	   } 
 	   .sublink { /* 하위 메뉴의 a 태그 스타일 설정 */ 
  	 	  color: #000000; /* 글씨 색 */ 
-	 	  background-color: white; /* 배경색 */ 
-		  border: solid 1px black; /* 테두리를 설정 */ 
-		  margin-top: -1px; /* 위 칸의 하단 테두리와 아래칸의 상단 테두리가 겹쳐지도록 설덩 */ 
-	   } 
-	   .longLink { /* 좀 더 긴 메뉴 스타일 설정 */ 
-	   	  width: 300px; /* 넓이는 190px로 설정 */ 
+	 	  background-color: #80ffff; /* 배경색 */ 
+	 	  font-size: 15px; /* 폰트 사이즈*/ 
+		  font-weight: normal; /* 폰트를 굵게 설정 */ 
+		  font-family: "Trebuchet MS", Dotum; /* 기본 폰트를 영어/한글 순서대로 설정 */ 
+		  text-decoration:none;
+		  
 	   } 
 	   .categoryul2 { /* 하위 메뉴 스타일 설정 */ 
 	      position: absolute; /* html의 flow에 영향을 미치지 않게 absolute 설정 */ 
