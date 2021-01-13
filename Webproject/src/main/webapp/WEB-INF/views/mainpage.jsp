@@ -7,23 +7,19 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 
+	
+	
 </head>
-<body>
-	<div>
-		<div>
-			<header>
-				<jsp:include page="maintop.jsp"/>
-			</header>
-		</div>
-	
-	
-	
-	
-	
-		<footer>
-			<jsp:include page="mainbottom.jsp"/>
-		</footer>
-	</div>
+<body >
+	<header style="display: inline-block; margin: auto; float: center;">
+		<jsp:include page="maintop.jsp"/>
+	</header>
+
+
+
+	<footer>
+		<jsp:include page="mainbottom.jsp"/>
+	</footer>
 
 </body>
 </html>

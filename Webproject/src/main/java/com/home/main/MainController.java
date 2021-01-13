@@ -22,6 +22,11 @@ public class MainController {
 		return ViewPath.Main_View.VIEW_PATH + "mainpage.jsp";
 	}
 	
+	@RequestMapping("/loginform.do")
+	public String login_main_form() {
+		return ViewPath.Login_View.VIEW_PATH + "loginmain.jsp";
+	}
+	
 	
 	
 

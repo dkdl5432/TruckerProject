@@ -9,14 +9,15 @@
 
 
 </head>
-<body style="display: block; position: absolute; margin:auto auto;">
+<body id="top">
 	<div style="display: block; width: 600px;  text-align: center;">
 		<!-- 로고이미지 -->
 		<!-- title 회사이름 -->
 		<img id="leftlogo" alt="" src="${pageContext.request.contextPath}/resources/images/logo.jpg" 
 			style="width: 120px; height: 55px; display: inline;"/>
-		<h1 style="display:inline; font-size: 35px;">Trucker
-		</h1>
+		<h1 style="display:inline; font-size: 35px;">Trucker</h1>
+		
+		<a href="loginform.do" class="login_main">로그인</a>
 		
 	</div>
 	<nav id="maincate">
